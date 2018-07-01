@@ -21,3 +21,23 @@ Demotool
 ## PidFitter
 
 - Gegeben Modell (+Integrator), Referenztrajektorien, finde Kp, Kd, Ki, sodass Kosten minimal
+## How to use Julia
+-Download Julia from https://julialang.org/downloads/
+-Install Julia
+-Open Julia
+-Type in:
+Pkg.add("JuMP")
+Pkg.add("Ipopt")
+Dann Folgende Anleitung nachgehen:
+https://github.com/JuliaPy/pyjulia
+Das heißt
+Pkg.add("PyCall")
+Dann (Windows 10) mit Anaconda Prompt den Folder zu PATH hinzufügen in der Juila.exe liegt. (Hier noch ne anleitung falls das mit dem Path nich klappt)
+Das heist:
+SEXT PATH "%PATH%;hierDeinPathEinfügen"
+anschließend in der Anaconda prompt:
+pip install julia
+
+und dann sollte das funktionieren.
+
+
